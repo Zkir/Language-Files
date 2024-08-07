@@ -29,4 +29,4 @@ jobs:
         
       - name: execute py script # run file
         run: |
-          python check_translations.py --MD
+          python ../Shopkeepers-Language-Files-Helpers/check_translations.py --MD
