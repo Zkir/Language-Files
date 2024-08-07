@@ -3,7 +3,7 @@ run-name: Check translations completeness
 on: [push, workflow_dispatch]
 jobs:
   Check-Completeness:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: Checkout
